@@ -1,6 +1,6 @@
 {
   "name": "dataprorrisi",
- "homepage": "https://reviewit2218.github.io/dataprorrisi/",
+  "homepage": "https://reviewit2218.github.io/dataprorrisi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,12 +13,16 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "gh-pages": "^2.0.0",
+    "popper": "^1.0.1"
   },
   "browserslist": [
     ">0.2%",

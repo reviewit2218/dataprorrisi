@@ -23,7 +23,7 @@ class HeaderBg extends Component {
                             <a className="nav-link" href="/">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                        <Link to ="/" className="mt-4 button">Contact</Link>
+                        <Link to ="/Support" className="mt-4 button">Contact</Link>
                         </li>
                         </ul>
                     </div>
